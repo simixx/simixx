@@ -1,16 +1,26 @@
-## Hi there 👋
+# 👋 Hi, I'm Simran Kohli
 
-<!--
-**simixx/simixx** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🔐 Security Researcher | VAPT | Red Teaming | Android & Web Pentesting  
+📍 India  
+🛠️ Tools: Burp Suite, Frida, Drozer, Nuclei, Metasploit, Wireshark  
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🔎 What I Do
+- Web & API Penetration Testing
+- Android Application Security Testing
+- Threat Modeling & Vulnerability Research
+- CTFs, Labs & Real-world Simulations
+
+---
+
+## 🧪 Labs & Practice
+- PortSwigger Web Security Academy
+- TryHackMe
+- Hack The Box
+- Android APK Reverse Engineering
+
+---
+
+## 📝 Blogs & Writeups
+👉 Check my writeups below 👇
