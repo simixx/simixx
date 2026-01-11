@@ -1,4 +1,4 @@
-![Banner](./banner.png)
+![Banner](./github-banner-image.html)
 
 # Simran Kohli
 
