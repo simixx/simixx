@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Banner - Simran Kohli</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: 'Courier New', monospace;
+        }
+
+        .banner {
+            width: 1280px;
+            height: 400px;
+            background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 50%, #0a0e27 100%);
+            position: relative;
+            overflow: hidden;
+            border: 2px solid #00f7f4;
+        }
+
+        .grid {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                linear-gradient(rgba(0, 247, 244, 0.1) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0, 247, 244, 0.1) 1px, transparent 1px);
+            background-size: 50px 50px;
+            animation: gridMove 20s linear infinite;
+        }
+
+        @keyframes gridMove {
+            0% { transform: translate(0, 0); }
+            100% { transform: translate(50px, 50px); }
+        }
+
+        .circuit {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            opacity: 0.15;
+        }
+
+        .circuit-line {
+            position: absolute;
+            background: #00f7f4;
+            box-shadow: 0 0 10px #00f7f4;
+        }
+
+        .content {
+            position: relative;
+            z-index: 10;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 60px;
+        }
+
+        .name {
+            font-size: 72px;
+            font-weight: bold;
+            color: #fff;
+            text-shadow: 0 0 20px #00f7f4, 0 0 40px #00f7f4;
+            margin-bottom: 10px;
+            letter-spacing: 3px;
+        }
+
+        .title {
+            font-size: 32px;
+            color: #00f7f4;
+            margin-bottom: 20px;
+            font-weight: 300;
+        }
+
+        .tags {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .tag {
+            padding: 8px 20px;
+            background: rgba(0, 247, 244, 0.1);
+            border: 1px solid #00f7f4;
+            color: #00f7f4;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: 0 0 10px rgba(0, 247, 244, 0.3);
+        }
+
+        .terminal {
+            background: rgba(0, 0, 0, 0.6);
+            border: 1px solid #00f7f4;
+            padding: 15px 20px;
+            font-size: 14px;
+            color: #00f7f4;
+            font-family: 'Courier New', monospace;
+            max-width: 600px;
+            box-shadow: 0 0 20px rgba(0, 247, 244, 0.2);
+        }
+
+        .terminal-line {
+            margin: 5px 0;
+        }
+
+        .prompt {
+            color: #ff6633;
+        }
+
+        .lock-icon {
+            position: absolute;
+            right: 80px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 180px;
+            height: 180px;
+            opacity: 0.3;
+        }
+
+        .lock-body {
+            width: 120px;
+            height: 100px;
+            background: transparent;
+            border: 6px solid #00f7f4;
+            border-radius: 10px;
+            position: absolute;
+            bottom: 0;
+            left: 30px;
+            box-shadow: 0 0 30px rgba(0, 247, 244, 0.5);
+        }
+
+        .lock-shackle {
+            width: 80px;
+            height: 80px;
+            border: 6px solid #00f7f4;
+            border-bottom: none;
+            border-radius: 80px 80px 0 0;
+            position: absolute;
+            top: -50px;
+            left: 50px;
+            box-shadow: 0 0 30px rgba(0, 247, 244, 0.5);
+        }
+
+        .keyhole {
+            width: 20px;
+            height: 20px;
+            background: #00f7f4;
+            border-radius: 50%;
+            position: absolute;
+            top: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            box-shadow: 0 0 20px #00f7f4;
+        }
+
+        .keyhole::after {
+            content: '';
+            width: 8px;
+            height: 30px;
+            background: #00f7f4;
+            position: absolute;
+            top: 15px;
+            left: 6px;
+            clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
+        }
+
+        .hex {
+            position: absolute;
+            font-size: 12px;
+            color: #00f7f4;
+            opacity: 0.3;
+            animation: float 6s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+
+        .particle {
+            position: absolute;
+            width: 3px;
+            height: 3px;
+            background: #00f7f4;
+            border-radius: 50%;
+            animation: particle 8s linear infinite;
+            box-shadow: 0 0 5px #00f7f4;
+        }
+
+        @keyframes particle {
+            0% {
+                transform: translate(0, 0);
+                opacity: 0;
+            }
+            10% {
+                opacity: 1;
+            }
+            90% {
+                opacity: 1;
+            }
+            100% {
+                transform: translate(100px, -100px);
+                opacity: 0;
+            }
+        }
+
+        .scan-line {
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #00f7f4, transparent);
+            animation: scan 3s linear infinite;
+            box-shadow: 0 0 10px #00f7f4;
+        }
+
+        @keyframes scan {
+            0% { top: 0; }
+            100% { top: 100%; }
+        }
+
+        .instructions {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            border: 1px solid #00f7f4;
+            padding: 15px;
+            font-size: 12px;
+            color: #00f7f4;
+            max-width: 300px;
+        }
+
+        .instructions h3 {
+            margin-bottom: 10px;
+            color: #ff6633;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <div class="grid"></div>
+        <div class="scan-line"></div>
+        
+        <div class="circuit">
+            <div class="circuit-line" style="width: 200px; height: 2px; top: 50px; left: 100px; transform: rotate(45deg);"></div>
+            <div class="circuit-line" style="width: 150px; height: 2px; top: 200px; right: 150px; transform: rotate(-30deg);"></div>
+            <div class="circuit-line" style="width: 2px; height: 180px; top: 80px; left: 200px;"></div>
+            <div class="circuit-line" style="width: 2px; height: 120px; bottom: 50px; right: 250px;"></div>
+        </div>
+
+        <div class="content">
+            <div class="name">SIMRAN KOHLI</div>
+            <div class="title">Security Researcher | Penetration Tester</div>
+            
+            <div class="tags">
+                <span class="tag">VAPT</span>
+                <span class="tag">Red Teaming</span>
+                <span class="tag">Mobile Security</span>
+                <span class="tag">Offensive Security</span>
+            </div>
+
+            <div class="terminal">
+                <div class="terminal-line"><span class="prompt">root@security:~$</span> whoami</div>
+                <div class="terminal-line">Web & API Security Specialist | Android Pentester</div>
+                <div class="terminal-line"><span class="prompt">root@security:~$</span> cat motto.txt</div>
+                <div class="terminal-line">Manual Testing > Automated Scanning | Attacker Mindset</div>
+            </div>
+        </div>
+
+        <div class="lock-icon">
+            <div class="lock-shackle"></div>
+            <div class="lock-body">
+                <div class="keyhole"></div>
+            </div>
+        </div>
+
+        <div class="hex" style="top: 40px; left: 180px;">0x4A7F</div>
+        <div class="hex" style="top: 120px; right: 300px; animation-delay: 1s;">0xDEAD</div>
+        <div class="hex" style="bottom: 60px; left: 250px; animation-delay: 2s;">0xBEEF</div>
+        <div class="hex" style="top: 180px; left: 400px; animation-delay: 1.5s;">0xC0DE</div>
+
+        <div class="particle" style="left: 20%; top: 30%; animation-delay: 0s;"></div>
+        <div class="particle" style="left: 40%; top: 50%; animation-delay: 1s;"></div>
+        <div class="particle" style="left: 60%; top: 20%; animation-delay: 2s;"></div>
+        <div class="particle" style="left: 80%; top: 70%; animation-delay: 3s;"></div>
+        <div class="particle" style="left: 30%; top: 80%; animation-delay: 1.5s;"></div>
+
+        <div class="instructions">
+            <h3>How to capture:</h3>
+            <p>1. Right-click on the banner</p>
+            <p>2. Select "Save image as..."</p>
+            <p>3. Or use screenshot tool (1280x400px)</p>
+            <p>4. Upload to your GitHub profile!</p>
+        </div>
+    </div>
+</body>
+</html>
