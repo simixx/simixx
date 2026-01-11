@@ -12,7 +12,7 @@
 ```
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="24px"> About Me
 
-Security Researcher with hands-on experience in **Web, API, and Android Application Security Testing**, focused on identifying real-world vulnerabilities through manual testing, exploitation, and structured reporting.
+Security Researcher with hands-on experience in **Web, Network, API, and Android Application Security Testing**, focused on identifying real-world vulnerabilities through manual testing, exploitation, and structured reporting.
 
 ```python
 class SecurityResearcher:
