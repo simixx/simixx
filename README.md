@@ -290,26 +290,6 @@ graph LR
 
 ---
 
-## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="30px"> Contribution Graph
-
-<div align="center">
-
-![Snake animation](https://raw.githubusercontent.com/simixx/simixx/output/github-contribution-grid-snake-dark.svg)
-
-</div>
-
----
-
-## <img src="https://media.giphy.com/media/KzJkzjggfGN5Py6nkT/giphy.gif" width="30px"> Trophy Cabinet
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=simixx&theme=onedark&no-frame=true&column=7&margin-w=15&margin-h=15)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
----
-
 ## <img src="https://media.giphy.com/media/TEnXkcsHrP4YedChhA/giphy.gif" width="30px"> Connect & Collaborate
 
 <div align="center">
