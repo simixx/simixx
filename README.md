@@ -10,15 +10,6 @@
 ╚██████╗   ██║   ██████╔╝███████╗██║  ██║    ███████║███████╗╚██████╗╚██████╔╝██║  ██║██║   ██║      ██║   
  ╚═════╝   ╚═╝   ╚═════╝ ╚══════╝╚═╝  ╚═╝    ╚══════╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝   ╚═╝      ╚═╝   
 ```
-
-### Security Researcher | Penetration Tester | Vulnerability Hunter
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=00F7F4&center=true&vCenter=true&width=600&lines=Web+%26+API+Security+Specialist;Android+Application+Pentester;VAPT+%7C+Red+Teaming+%7C+Offensive+Security;Manual+Testing+%2B+Attacker+Mindset" alt="Typing SVG" />
-
-</div>
-
----
-
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="24px"> About Me
 
 Security Researcher with hands-on experience in **Web, API, and Android Application Security Testing**, focused on identifying real-world vulnerabilities through manual testing, exploitation, and structured reporting.
