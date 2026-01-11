@@ -295,8 +295,8 @@ graph LR
 <div align="center">
 
 [![Email](https://img.shields.io/badge/Email-simrankohli628%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:simrankohli628@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_URL)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-00f7f4?style=for-the-badge&logo=google-chrome&logoColor=white)](YOUR_PORTFOLIO_URL)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/simran-kohli-a9072630a)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-00f7f4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://simrankohli.netlify.app)
 
 </div>
 
