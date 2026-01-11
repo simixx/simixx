@@ -1,7 +1,5 @@
 ![Banner](./banner.svg)
 
-# Simran Kohli
-
 <div align="center">
 
 ```ascii
