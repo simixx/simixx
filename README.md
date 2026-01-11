@@ -1,3 +1,5 @@
+![Banner](./banner.png)
+
 # Simran Kohli
 
 <div align="center">
